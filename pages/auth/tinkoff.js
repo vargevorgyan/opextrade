@@ -1,24 +1,14 @@
-import React from 'react'
 import styled from 'styled-components'
 import HeaderLayout from '../../components/layout/HeaderLayout'
 import { ButtonStyled } from '../../styled/Buttons'
 import { AuthenticationTitle } from '../../styled/Texts'
-import { AuthInput } from '../../styled/inputs'
+import { AuthInput, AuthForm } from '../../styled/inputs'
 
 const Main = styled.main`
   margin-top: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
-`
-
-const AuthForm = styled.form`
-  width: 85%;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
 `
 
 function TinkoffAuth() {
@@ -35,6 +25,7 @@ function TinkoffAuth() {
     </>
   )
 }
+
 // const brokers = ['Finam', 'Tinkoff']
 // const apiURL = 'https://api-invest.tinkoff.ru/openapi/sandbox' // Для Production-окружения будет https://api-invest.tinkoff.ru/openapi
 // const socketURL = 'wss://api-invest.tinkoff.ru/openapi/md/v1/md-openapi/ws'

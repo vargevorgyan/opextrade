@@ -8,4 +8,16 @@ export const AuthInput = styled.input`
   height: 68px;
   background: #f3f3f3;
   border-radius: 16px;
+  @media (max-width: 667px) {
+    height: 55px;
+    font-size: 20px;
+  }
+`
+export const AuthForm = styled.form`
+  width: 85%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 `

@@ -68,7 +68,7 @@ function Checkbox({ children, handleOnChange, checkedBox }) {
       <input
         type="checkbox"
         onChange={() => handleOnChange(children)}
-        checked={checkedBox[children]}
+        checked={checkedBox}
       />
       <div />
       <p>{children}</p>

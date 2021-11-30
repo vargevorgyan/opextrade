@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stoqey/ib": "^1.2.15",
     "@tinkoff/invest-openapi-js-sdk": "^1.5.0",
     "next": "12.0.4",
     "react": "17.0.2",

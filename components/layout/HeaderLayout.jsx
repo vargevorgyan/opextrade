@@ -9,7 +9,7 @@ const ImageWrppaer = styled.div`
   width: 130px;
   height: 38px;
   margin-left: 20px;
-  @media (min-width: 1044px) {
+  @media (min-width: 667px) {
     width: 240px;
     height: 50px;
   }
